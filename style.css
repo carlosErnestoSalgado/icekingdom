@@ -104,7 +104,9 @@ body{
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 992px) {
     /* Estilos para pantallas con ancho máximo de 990px */
     #nav-responsive{
         display: block !important;
@@ -133,8 +135,8 @@ body{
         animation-range: entry 25% cover 50%;
         animation-fill-mode: both;
     }
-}
 
+}
 @keyframes show {
     from{
         opacity: 0;
@@ -147,4 +149,3 @@ body{
     }
     
 }
-
